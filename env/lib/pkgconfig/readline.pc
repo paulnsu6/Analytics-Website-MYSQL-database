@@ -1,4 +1,4 @@
-prefix=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env
+prefix=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

@@ -81,7 +81,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 OPT=		-DNDEBUG -fwrapv -O2 -Wall
 BASECFLAGS=	 -Wno-unused-result -Wsign-compare -Wunreachable-code
 BASECPPFLAGS=	-IObjects -IInclude -IPython
-CONFIGURE_CFLAGS=	 -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include   -arch x86_64 -I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include
+CONFIGURE_CFLAGS=	 -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include   -arch x86_64 -I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include
 # CFLAGS_NODIST is used for building the interpreter and stdlib C extensions.
 # Use it when a compiler flag should _not_ be part of the distutils CFLAGS
 # once Python is installed (Issue #21121).
@@ -90,8 +90,8 @@ CONFIGURE_CFLAGS_NODIST=  -std=c99 -Wextra -Wno-unused-result -Wno-unused-parame
 # Use it when a linker flag should _not_ be part of the distutils LDFLAGS
 # once Python is installed (bpo-35257)
 CONFIGURE_LDFLAGS_NODIST=  -Wl,-export_dynamic -g
-CONFIGURE_CPPFLAGS=	 -D_FORTIFY_SOURCE=2 -isystem /Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include -mmacosx-version-min=10.15 -I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include -I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include
-CONFIGURE_LDFLAGS=	 -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib -L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib -L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib
+CONFIGURE_CPPFLAGS=	 -D_FORTIFY_SOURCE=2 -isystem /Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include -mmacosx-version-min=10.15 -I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include -I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include
+CONFIGURE_LDFLAGS=	 -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib -L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib -L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib
 # Avoid assigning CFLAGS, LDFLAGS, etc. so users can use them on the
 # command line to append to these values without stomping the pre-set
 # values.
@@ -129,7 +129,7 @@ MULTIARCH=	darwin
 MULTIARCH_CPPFLAGS = -DMULTIARCH=\"darwin\"
 
 # Install prefix for architecture-independent files
-prefix=		/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env
+prefix=		/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env
 
 # Install prefix for architecture-dependent files
 exec_prefix=	${prefix}
@@ -200,12 +200,12 @@ RUNSHARED=
 ENSUREPIP=      no
 
 # OpenSSL options for setup.py so sysconfig can pick up AC_SUBST() vars.
-OPENSSL_INCLUDES=-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include
+OPENSSL_INCLUDES=-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include
 OPENSSL_LIBS=-lssl -lcrypto
-OPENSSL_LDFLAGS=-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib
+OPENSSL_LDFLAGS=-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib
 
 # Default zoneinfo.TZPATH. Added here to expose it in sysconfig.get_config_var
-TZPATH=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/share/zoneinfo
+TZPATH=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/share/zoneinfo
 
 # Modes for directories, executables and data files created by the
 # install process.  Default to user-only-writable for all file types.
@@ -214,7 +214,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--prefix=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env' '--build=x86_64-apple-darwin13.4.0' '--host=x86_64-apple-darwin13.4.0' '--enable-ipv6' '--with-ensurepip=no' '--with-tzpath=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/share/zoneinfo' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include' '--with-tcltk-libs=-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib -ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--with-openssl=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env' 'PKG_CONFIG_LIBDIR=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib' 'PKG_CONFIG_PATH=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib' 'CPPFLAGS= -D_FORTIFY_SOURCE=2 -isystem /Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include -mmacosx-version-min=10.15 -I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include -I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include' 'CXXFLAGS=-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include   -I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include' 'CFLAGS= -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include   -arch x86_64 -I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include' 'LDFLAGS= -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib -L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib -L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib' 'CC=x86_64-apple-darwin13.4.0-clang' 'CXX=x86_64-apple-darwin13.4.0-clang++' '--with-lto' '--enable-optimizations' '-oldincludedir=/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3da4vikyv5/croot/python-split_1733933791711/_build_env/x86_64-apple-darwin13.4.0/sysroot/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo' 'build_alias=x86_64-apple-darwin13.4.0' 'host_alias=x86_64-apple-darwin13.4.0' 'MACHDEP=darwin'
+CONFIG_ARGS=	 '--prefix=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env' '--build=x86_64-apple-darwin13.4.0' '--host=x86_64-apple-darwin13.4.0' '--enable-ipv6' '--with-ensurepip=no' '--with-tzpath=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/share/zoneinfo' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include' '--with-tcltk-libs=-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib -ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--with-openssl=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env' 'PKG_CONFIG_LIBDIR=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib' 'PKG_CONFIG_PATH=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib' 'CPPFLAGS= -D_FORTIFY_SOURCE=2 -isystem /Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include -mmacosx-version-min=10.15 -I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include -I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include' 'CXXFLAGS=-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include   -I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include' 'CFLAGS= -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include   -arch x86_64 -I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include' 'LDFLAGS= -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib -L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib -L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib' 'CC=x86_64-apple-darwin13.4.0-clang' 'CXX=x86_64-apple-darwin13.4.0-clang++' '--with-lto' '--enable-optimizations' '-oldincludedir=/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3da4vikyv5/croot/python-split_1733933791711/_build_env/x86_64-apple-darwin13.4.0/sysroot/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo' 'build_alias=x86_64-apple-darwin13.4.0' 'host_alias=x86_64-apple-darwin13.4.0' 'MACHDEP=darwin'
 
 
 # Subdirectories with code
@@ -263,8 +263,8 @@ BUILD_GNU_TYPE=	x86_64-apple-darwin13.4.0
 HOST_GNU_TYPE=	x86_64-apple-darwin13.4.0
 
 # Tcl and Tk config info from --with-tcltk-includes and -libs options
-TCLTK_INCLUDES=	-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include
-TCLTK_LIBS=	-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib -ltcl8.6 -ltk8.6
+TCLTK_INCLUDES=	-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include
+TCLTK_LIBS=	-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib -ltcl8.6 -ltk8.6
 
 # The task to run while instrumented when building the profile-opt target.
 # To speed up profile generation, we don't run the full unit test suite
@@ -313,7 +313,7 @@ IO_OBJS=	\
 
 ##########################################################################
 
-LIBFFI_INCLUDEDIR=	/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include
+LIBFFI_INCLUDEDIR=	/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include
 
 ##########################################################################
 # Parser

@@ -1,8 +1,8 @@
 # tk pkg-config source file
 
-prefix=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env
-exec_prefix=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env
-libdir=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib
+prefix=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env
+exec_prefix=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env
+libdir=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib
 includedir=${prefix}/include
 
 Name: The Tk Toolkit

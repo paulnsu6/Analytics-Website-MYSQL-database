@@ -36,7 +36,7 @@ LANGUAGE=C;	export LANGUAGE
 LC_ALL=C;	export LC_ALL
 LC_CTYPE=C;	export LC_CTYPE
 
-prefix="/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env"
+prefix="/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env"
 exec_prefix="${prefix}"
 
 bindir="${exec_prefix}/bin"
@@ -101,7 +101,7 @@ fi
 # There is no portable way to find the list of standard library directories.
 # Require a POSIX shell anyway, to keep this simple.
 lib_flags=
-for opt in -L$libdir -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib -L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib -Wl,-search_paths_first  $LIBS
+for opt in -L$libdir -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib -L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib -Wl,-search_paths_first  $LIBS
 do
 	case $opt in
 	-specs*) # ignore linker specs-files which were used to build library
@@ -280,10 +280,10 @@ ENDECHO
 		echo "${mandir}"
 		;;
 	--terminfo)
-		echo "/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/share/terminfo"
+		echo "/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/share/terminfo"
 		;;
 	--terminfo-dirs)
-		echo "/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/share/terminfo"
+		echo "/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/share/terminfo"
 		;;
 	--termpath)
 		echo "/etc/termcap:/usr/share/misc/termcap"

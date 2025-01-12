@@ -10,19 +10,19 @@ build_time_vars = {'ABIFLAGS': '',
  'BASECFLAGS': '-Wno-unused-result -Wsign-compare -Wunreachable-code',
  'BASECPPFLAGS': '-IObjects -IInclude -IPython',
  'BASEMODLIBS': '',
- 'BINDIR': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/bin',
- 'BINLIBDEST': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib/python3.9',
+ 'BINDIR': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/bin',
+ 'BINLIBDEST': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib/python3.9',
  'BLDLIBRARY': 'libpython3.9.a',
  'BLDSHARED': 'x86_64-apple-darwin13.4.0-clang -bundle -undefined '
               'dynamic_lookup  -Wl,-pie '
               '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-              '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-              '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-              '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
+              '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+              '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+              '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
               ' -Wl,-pie '
               '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-              '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-              '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib',
+              '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+              '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib',
  'BUILDEXE': '.exe',
  'BUILDPYTHON': 'python.exe',
  'BUILD_GNU_TYPE': 'x86_64-apple-darwin13.4.0',
@@ -33,15 +33,15 @@ build_time_vars = {'ABIFLAGS': '',
            '-fwrapv -O2 -Wall  -march=core2 '
            '-mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE '
            '-fstack-protector-strong -O2 -pipe -isystem '
-           '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+           '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
            ' '
            ' '
            '-arch x86_64 '
-           '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+           '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
            ' -march=core2 -mtune=haswell -mssse3 '
            '-ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe '
            '-isystem '
-           '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+           '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
            ' '
            ' '
            '-arch x86_64 ',
@@ -52,11 +52,11 @@ build_time_vars = {'ABIFLAGS': '',
  'CONFIGURE_CFLAGS': ' -march=core2 '
                      '-mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE '
                      '-fstack-protector-strong -O2 -pipe -isystem '
-                     '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                     '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                      ' '
                      ' '
                      '-arch x86_64 '
-                     '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include',
+                     '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include',
  'CONFIGURE_CFLAGS_NODIST': ' -std=c99 -Wextra -Wno-unused-result '
                             '-Wno-unused-parameter '
                             '-Wno-missing-field-initializers '
@@ -65,56 +65,56 @@ build_time_vars = {'ABIFLAGS': '',
                             '-fvisibility=hidden',
  'CONFIGURE_CPPFLAGS': ' -D_FORTIFY_SOURCE=2 '
                        '-isystem '
-                       '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                       '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                        '-mmacosx-version-min=10.15 '
-                       '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
-                       '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include',
+                       '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
+                       '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include',
  'CONFIGURE_LDFLAGS': ' -Wl,-pie '
                       '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-                      '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-                      '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-                      '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib',
+                      '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+                      '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+                      '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib',
  'CONFIGURE_LDFLAGS_NODIST': ' -Wl,-export_dynamic -g',
- 'CONFIG_ARGS': "'--prefix=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env' "
+ 'CONFIG_ARGS': "'--prefix=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env' "
                 "'--build=x86_64-apple-darwin13.4.0' "
                 "'--host=x86_64-apple-darwin13.4.0' '--enable-ipv6' "
                 "'--with-ensurepip=no' "
-                "'--with-tzpath=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/share/zoneinfo:/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/share/tzinfo' "
+                "'--with-tzpath=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/share/zoneinfo:/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/share/tzinfo' "
                 "'--with-computed-gotos' '--with-system-ffi' "
                 "'--enable-loadable-sqlite-extensions' "
-                "'--with-tcltk-includes=-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include' "
-                "'--with-tcltk-libs=-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib "
+                "'--with-tcltk-includes=-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include' "
+                "'--with-tcltk-libs=-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib "
                 "-ltcl8.6 -ltk8.6' '--with-platlibdir=lib' "
-                "'--with-openssl=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env' "
-                "'PKG_CONFIG_LIBDIR=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib' "
-                "'PKG_CONFIG_PATH=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib' "
+                "'--with-openssl=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env' "
+                "'PKG_CONFIG_LIBDIR=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib' "
+                "'PKG_CONFIG_PATH=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib' "
                 "'CPPFLAGS= -D_FORTIFY_SOURCE=2 "
                 '-isystem '
-                '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                 '-mmacosx-version-min=10.15 '
-                '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
-                "-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include' "
+                '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
+                "-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include' "
                 "'CXXFLAGS=-march=core2 -mtune=haswell -mssse3 "
                 '-ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 '
                 '-pipe -stdlib=libc++ -fvisibility-inlines-hidden '
                 '-fmessage-length=0 -isystem '
-                '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                 ' '
                 ' '
-                "-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include' "
+                "-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include' "
                 "'CFLAGS= -march=core2 "
                 '-mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE '
                 '-fstack-protector-strong -O2 -pipe -isystem '
-                '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                 ' '
                 ' '
                 '-arch x86_64 '
-                "-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include' "
+                "-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include' "
                 "'LDFLAGS= -Wl,-pie "
                 '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-                '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-                '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-                "-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib' "
+                '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+                '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+                "-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib' "
                 "'CC=x86_64-apple-darwin13.4.0-clang' "
                 "'CXX=x86_64-apple-darwin13.4.0-clang++' '--with-lto' "
                 "'--enable-optimizations' "
@@ -122,8 +122,8 @@ build_time_vars = {'ABIFLAGS': '',
                 "'--disable-shared' 'PROFILE_TASK=-m test --pgo' "
                 "'build_alias=x86_64-apple-darwin13.4.0' "
                 "'host_alias=x86_64-apple-darwin13.4.0' 'MACHDEP=darwin'",
- 'CONFINCLUDEDIR': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include',
- 'CONFINCLUDEPY': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include/python3.9',
+ 'CONFINCLUDEDIR': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include',
+ 'CONFINCLUDEPY': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include/python3.9',
  'COREPYTHONPATH': '',
  'COVERAGE_INFO': '/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3da4vikyv5/croot/python-split_1733933791711/work/build-static/coverage.info',
  'COVERAGE_REPORT': '/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3da4vikyv5/croot/python-split_1733933791711/work/build-static/lcov-report',
@@ -132,22 +132,22 @@ build_time_vars = {'ABIFLAGS': '',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
              '-I/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3da4vikyv5/croot/python-split_1733933791711/work/Include '
              ' -D_FORTIFY_SOURCE=2 -isystem '
-             '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+             '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
              '-mmacosx-version-min=10.15 '
-             '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
-             '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+             '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
+             '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
              ' -D_FORTIFY_SOURCE=2 -isystem '
-             '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+             '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
              '-mmacosx-version-min=10.15 '
-             '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include',
+             '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include',
  'CXX': 'x86_64-apple-darwin13.4.0-clang++',
- 'DESTDIRS': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env '
-             '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-             '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib/python3.9 '
-             '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib/python3.9/lib-dynload',
- 'DESTLIB': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib/python3.9',
+ 'DESTDIRS': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env '
+             '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+             '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib/python3.9 '
+             '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib/python3.9/lib-dynload',
+ 'DESTLIB': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib/python3.9',
  'DESTPATH': '',
- 'DESTSHARED': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib/python3.9/lib-dynload',
+ 'DESTSHARED': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib/python3.9/lib-dynload',
  'DFLAGS': '',
  'DIRMODE': 755,
  'DIST': 'README.rst ChangeLog configure configure.ac acconfig.h pyconfig.h.in '
@@ -610,12 +610,12 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_ZLIB_COPY': 1,
  'HAVE__GETPTY': 0,
  'HOST_GNU_TYPE': 'x86_64-apple-darwin13.4.0',
- 'INCLDIRSTOMAKE': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
-                   '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
-                   '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include/python3.9 '
-                   '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include/python3.9',
- 'INCLUDEDIR': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include',
- 'INCLUDEPY': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include/python3.9',
+ 'INCLDIRSTOMAKE': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
+                   '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
+                   '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include/python3.9 '
+                   '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include/python3.9',
+ 'INCLUDEDIR': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include',
+ 'INCLUDEPY': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include/python3.9',
  'INSTALL': '/usr/bin/install -c',
  'INSTALL_DATA': '/usr/bin/install -c -m 644',
  'INSTALL_PROGRAM': '/usr/bin/install -c',
@@ -628,35 +628,35 @@ build_time_vars = {'ABIFLAGS': '',
                 'dynamic_lookup',
  'LDFLAGS': ' -Wl,-pie '
             '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-            '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-            '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-            '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
+            '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+            '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+            '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
             ' -Wl,-pie '
             '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-            '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-            '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib',
+            '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+            '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib',
  'LDLIBRARY': 'libpython3.9.a',
  'LDLIBRARYDIR': '',
  'LDSHARED': 'x86_64-apple-darwin13.4.0-clang -bundle -undefined '
              'dynamic_lookup  -Wl,-pie '
              '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-             '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-             '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-             '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
+             '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+             '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+             '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
              ' -Wl,-pie '
              '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-             '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-             '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib',
+             '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+             '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib',
  'LDVERSION': '3.9',
  'LIBC': '',
- 'LIBDEST': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib/python3.9',
- 'LIBDIR': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib',
- 'LIBFFI_INCLUDEDIR': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include',
+ 'LIBDEST': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib/python3.9',
+ 'LIBDIR': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib',
+ 'LIBFFI_INCLUDEDIR': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include',
  'LIBM': '',
  'LIBOBJDIR': 'Python/',
  'LIBOBJS': '',
- 'LIBPC': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib/pkgconfig',
- 'LIBPL': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib/python3.9/config-3.9-darwin',
+ 'LIBPC': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib/pkgconfig',
+ 'LIBPL': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib/python3.9/config-3.9-darwin',
  'LIBPYTHON': '',
  'LIBRARY': 'libpython3.9.a',
  'LIBRARY_OBJS': '\\',
@@ -675,13 +675,13 @@ build_time_vars = {'ABIFLAGS': '',
  'LOCALMODLIBS': '',
  'MACHDEP': 'darwin',
  'MACHDEP_OBJS': '',
- 'MACHDESTLIB': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib/python3.9',
+ 'MACHDESTLIB': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib/python3.9',
  'MACOSX_DEPLOYMENT_TARGET': '10.15',
  'MAINCC': 'x86_64-apple-darwin13.4.0-clang',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 0,
  'MAKESETUP': '/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3da4vikyv5/croot/python-split_1733933791711/work/Modules/makesetup',
- 'MANDIR': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/share/man',
+ 'MANDIR': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/share/man',
  'MKDIR_P': '/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3da4vikyv5/croot/python-split_1733933791711/work/install-sh '
             '-c -d',
  'MODBUILT_NAMES': 'posix  errno  pwd  _sre  _codecs  _weakref  _functools  '
@@ -708,8 +708,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MVWDELCH_IS_EXPRESSION': 1,
  'NO_AS_NEEDED': '',
  'OBJECT_OBJS': '\\',
- 'OPENSSL_INCLUDES': '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include',
- 'OPENSSL_LDFLAGS': '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib',
+ 'OPENSSL_INCLUDES': '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include',
+ 'OPENSSL_LDFLAGS': '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib',
  'OPENSSL_LIBS': '-lssl -lcrypto',
  'OPT': '-DNDEBUG -fwrapv -O2 -Wall',
  'OTHER_LIBTOOL_OPT': '',
@@ -752,16 +752,16 @@ build_time_vars = {'ABIFLAGS': '',
                              '-mtune=haswell -mssse3 -ftree-vectorize -fPIC '
                              '-fPIE -fstack-protector-strong -O2 -pipe '
                              '-isystem '
-                             '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                             '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                              ' '
                              ' '
                              '-arch x86_64 '
-                             '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                             '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                              ' -march=core2 '
                              '-mtune=haswell -mssse3 -ftree-vectorize -fPIC '
                              '-fPIE -fstack-protector-strong -O2 -pipe '
                              '-isystem '
-                             '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                             '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                              ' '
                              ' '
                              '-arch x86_64   -std=c99 -Wextra '
@@ -776,29 +776,29 @@ build_time_vars = {'ABIFLAGS': '',
                              '-I/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3da4vikyv5/croot/python-split_1733933791711/work/Include '
                              ' '
                              '-D_FORTIFY_SOURCE=2 -isystem '
-                             '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                             '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                              '-mmacosx-version-min=10.15 '
-                             '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
-                             '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                             '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
+                             '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                              ' '
                              '-D_FORTIFY_SOURCE=2 -isystem '
-                             '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                             '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                              '-mmacosx-version-min=10.15 '
-                             '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                             '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                              '-DPy_BUILD_CORE_BUILTIN',
  'PY_CFLAGS': '-Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG '
               '-fwrapv -O2 -Wall  -march=core2 '
               '-mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE '
               '-fstack-protector-strong -O2 -pipe -isystem '
-              '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+              '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
               ' '
               ' '
               '-arch x86_64 '
-              '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+              '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
               ' -march=core2 -mtune=haswell '
               '-mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong '
               '-O2 -pipe -isystem '
-              '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+              '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
               ' '
               ' '
               '-arch x86_64 ',
@@ -813,15 +813,15 @@ build_time_vars = {'ABIFLAGS': '',
                    '-DNDEBUG -fwrapv -O2 -Wall  '
                    '-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC '
                    '-fPIE -fstack-protector-strong -O2 -pipe -isystem '
-                   '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                   '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                    ' '
                    ' '
                    '-arch x86_64 '
-                   '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                   '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                    ' -march=core2 -mtune=haswell '
                    '-mssse3 -ftree-vectorize -fPIC -fPIE '
                    '-fstack-protector-strong -O2 -pipe -isystem '
-                   '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                   '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                    ' '
                    ' '
                    '-arch x86_64   -std=c99 -Wextra '
@@ -834,47 +834,47 @@ build_time_vars = {'ABIFLAGS': '',
                    '-I/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3da4vikyv5/croot/python-split_1733933791711/work/Include '
                    ' -D_FORTIFY_SOURCE=2 '
                    '-isystem '
-                   '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                   '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                    '-mmacosx-version-min=10.15 '
-                   '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
-                   '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                   '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
+                   '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                    ' -D_FORTIFY_SOURCE=2 '
                    '-isystem '
-                   '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                   '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                    '-mmacosx-version-min=10.15 '
-                   '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                   '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                    '-DPy_BUILD_CORE',
  'PY_CORE_LDFLAGS': ' -Wl,-pie '
                     '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-                    '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-                    '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-                    '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
+                    '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+                    '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+                    '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
                     ' -Wl,-pie '
                     '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-                    '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-                    '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
+                    '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+                    '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
                     ' -Wl,-export_dynamic -g',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
                 '-I/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3da4vikyv5/croot/python-split_1733933791711/work/Include '
                 ' -D_FORTIFY_SOURCE=2 -isystem '
-                '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                 '-mmacosx-version-min=10.15 '
-                '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
-                '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
+                '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                 ' -D_FORTIFY_SOURCE=2 -isystem '
-                '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                 '-mmacosx-version-min=10.15 '
-                '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include',
+                '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include',
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': ' -Wl,-pie '
                '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-               '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-               '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-               '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
+               '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+               '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+               '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
                ' -Wl,-pie '
                '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-               '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
-               '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib',
+               '-Wl,-rpath,/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
+               '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib',
  'PY_LDFLAGS_NODIST': ' -Wl,-export_dynamic -g',
  'PY_SSL_DEFAULT_CIPHERS': 1,
  'PY_SSL_DEFAULT_CIPHER_STRING': 0,
@@ -883,15 +883,15 @@ build_time_vars = {'ABIFLAGS': '',
                         ' -march=core2 -mtune=haswell '
                         '-mssse3 -ftree-vectorize -fPIC -fPIE '
                         '-fstack-protector-strong -O2 -pipe -isystem '
-                        '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                        '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                         ' '
                         ' '
                         '-arch x86_64 '
-                        '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                        '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                         ' -march=core2 '
                         '-mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE '
                         '-fstack-protector-strong -O2 -pipe -isystem '
-                        '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                        '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                         ' '
                         ' '
                         '-arch x86_64   -std=c99 -Wextra '
@@ -905,15 +905,15 @@ build_time_vars = {'ABIFLAGS': '',
                         '-I/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3da4vikyv5/croot/python-split_1733933791711/work/Include '
                         ' -D_FORTIFY_SOURCE=2 '
                         '-isystem '
-                        '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                        '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                         '-mmacosx-version-min=10.15 '
-                        '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
-                        '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                        '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
+                        '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                         ' -D_FORTIFY_SOURCE=2 '
                         '-isystem '
-                        '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include '
+                        '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include '
                         '-mmacosx-version-min=10.15 '
-                        '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include',
+                        '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include',
  'Py_DEBUG': 0,
  'Py_ENABLE_SHARED': 0,
  'Py_HASH_ALGORITHM': 0,
@@ -923,7 +923,7 @@ build_time_vars = {'ABIFLAGS': '',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
  'RUNSHARED': '',
- 'SCRIPTDIR': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib',
+ 'SCRIPTDIR': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib',
  'SETPGRP_HAVE_ARG': 0,
  'SHELL': '/bin/sh',
  'SHLIBS': '-ldl   -framework CoreFoundation',
@@ -959,8 +959,8 @@ build_time_vars = {'ABIFLAGS': '',
  'SUBDIRSTOO': 'Include Lib Misc',
  'SYSLIBS': '',
  'SYS_SELECT_WITH_SYS_TIME': 1,
- 'TCLTK_INCLUDES': '-I/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include',
- 'TCLTK_LIBS': '-L/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib '
+ 'TCLTK_INCLUDES': '-I/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include',
+ 'TCLTK_LIBS': '-L/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib '
                '-ltcl8.6 -ltk8.6',
  'TESTOPTS': '',
  'TESTPATH': '',
@@ -972,7 +972,7 @@ build_time_vars = {'ABIFLAGS': '',
  'TIMEMODULE_LIB': 0,
  'TIME_WITH_SYS_TIME': 1,
  'TM_IN_SYS_TIME': 0,
- 'TZPATH': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/share/zoneinfo:/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/share/tzinfo',
+ 'TZPATH': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/share/zoneinfo:/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/share/tzinfo',
  'UNICODE_DEPS': '\\',
  'UNIVERSALSDK': '',
  'UPDATE_FILE': 'python3.9 '
@@ -993,7 +993,7 @@ build_time_vars = {'ABIFLAGS': '',
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
  'abs_builddir': '/private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3da4vikyv5/croot/python-split_1733933791711/work/build-static',
  'abs_srcdir': '/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3da4vikyv5/croot/python-split_1733933791711/work',
- 'datarootdir': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/share',
- 'exec_prefix': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env',
- 'prefix': '/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env',
+ 'datarootdir': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/share',
+ 'exec_prefix': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env',
+ 'prefix': '/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env',
  'srcdir': '/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3da4vikyv5/croot/python-split_1733933791711/work'}

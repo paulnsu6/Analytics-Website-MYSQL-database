@@ -5,10 +5,10 @@
 # You can do whatever you want with this file.
 #
 
-prefix=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env
-exec_prefix=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env
-libdir=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/lib
-includedir=/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/include
+prefix=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env
+exec_prefix=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env
+libdir=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/lib
+includedir=/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/include
 
 Name: liblzma
 Description: General purpose data compression library

@@ -1,4 +1,4 @@
-#!/Users/apple/machine_leaning_project/sample_project/OPEN-STREAMLIT-PROJECTS/env/bin/python
+#!/Users/apple/machine_leaning_project/sample_project/Analytics-Website-MYSQL-database/env/bin/python
 from __future__ import absolute_import, division, print_function
 
 from PIL import Image
