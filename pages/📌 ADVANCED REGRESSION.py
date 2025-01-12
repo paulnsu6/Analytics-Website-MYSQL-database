@@ -7,7 +7,7 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from streamlit_extras.metric_cards import style_metric_cards
 #from query import *
-st.set_option('deprecation.showPyplotGlobalUse', False)
+# st.set_option('deprecation.showPyplotGlobalUse', False)
 
 #navicon and header
 st.set_page_config(page_title="Dashboard", page_icon="📈", layout="wide")  
